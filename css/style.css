@@ -19,35 +19,11 @@ body::-webkit-scrollbar-thumb{
     background: #c1c1c1;
     border-radius: 6px;
 }
+
+/* HEADER */
 .header{
     z-index:2;
 }
-.sobre-secao{
-    top: 0;
-    margin: 0%;
-}
-
-#sobre-title{
-    font-size: 60px;
-}
-#sobre-secao p{
-    font-size: 0.8rem;
-}
-#sobre{
-    padding: 70px 90px;
-    overflow-y: hidden;
-}
-.sobre-img{
-    width: 23rem;
-    padding: 0px 50px 0px 0px;
-}
-.row{
-    align-items: center;
-}
-#top{
-    top: -1000px;
-}
-
 .hero{
     position: relative;
     height: 90vh;
@@ -66,7 +42,6 @@ body::-webkit-scrollbar-thumb{
     z-index: 0;
     opacity: 0.3;
 }
-
 #title{
     transition: 0.5s;
 }
@@ -74,12 +49,10 @@ body::-webkit-scrollbar-thumb{
     font-size: 2.7rem !important;
 }
 
+/* NAVBAR */
 nav{
-    width: 100%;
     height: 59px;
     background: rgba(19, 18, 18, 0.8);
-    top: 0;
-    overflow: hidden;
     z-index: 2;
 }
 nav ul{
@@ -126,6 +99,23 @@ nav a:hover{
 nav p:hover{
     font-size: 18px;
 }
+/* SOBRE */
+#sobre{
+    padding: 70px 90px;
+    background-color: #202124;
+}
+#sobre-title{
+    font-size: 60px;
+}
+#sobre-secao p{
+    font-size: 0.8rem;
+}
+#sobre-img{
+    align-items: flex-start;
+}
+
+
+
 
 @media (max-width: 1400px) {
     nav a{
@@ -176,7 +166,7 @@ nav p:hover{
         font-size: 4px;
     }
 }
-@media(max-width: 992px){
+@media(max-width: 776px){
     #sobre-title{
         text-align: center;
     }
