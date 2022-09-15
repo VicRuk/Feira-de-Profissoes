@@ -23,7 +23,7 @@
 <body>
 
     <div class="container-fluid px-0">
-
+        <!-- HEADER -->
         <header class="header position-relative start-0 top-0 end-0 px-0" style="background:black">
             <div class="hero">
                 <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" class="hero_video">
@@ -33,31 +33,86 @@
                 <div class="hero_content h-100 container-xxl position-relative">
                     <div class="d-flex h-100 align-items-center">
                         <div class="container-fluid px-5 text-white text-center">
-                            <h3 class="fw-semibold mb-1 fs-1" id="title">Produção Audiovisual</h1>
+                            <h3 class="fw-semibold mb-1 fs-1" id="header-title">Produção Audiovisual</h1>
                             <p class="lead mb-1 fs-6 px-4">A Produção Audiovisual é um segmento que envolve a área de produção artística, cultural e 
                             multimídia para a circulação em diversos tipos de meios de comunicação.</p>
                         </div>
                     </div>
                 </div>
+
+                <a href="#sobre" class="hero_scroll_btn">
+                    Saiba mais! <i class="bi bi-arrow-down-short"></i>
+                </a>
             </div>     
         </header>
 
-        <nav class="sticky-top overflow-hidden">
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#exigencias">Exigências</a></li>
-                <li><a href="#mercado">Mercado de Trabalho</a></li>
-                <li><a href="#entrevista">Entrevista</a></li>
-                <li><a href="#cursos">Curso</a></li>
-                <li><a href="#universidades">Universidades</a></li>
-            </ul>
-        </nav>
+        <!-- NAV -->
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Produção Audiovisual</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end  bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">Produção Audiovisual</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#sobre">SOBRE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#exigencias">EXIGÊNCIAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#mercado">MERCADO DE TRABALHO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#entrevista">ENTREVISTA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#curso">CURSO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#universidade">UNIVERSIDADES</a>
+                        </li>
+                    </ul>
+              </div>
+            </div>
+          </nav>
             
         
         
-        <section>  
+        <section> 
+            <!-- SOBRE --> 
             <div class="container-fluid text-white position-relative" id="sobre">
                 <h1 class="fw-semibold mb-0" id="sobre-title">Sobre</h1>
+
+                <div class="row align-items-center mb-0" id="sobre-secao">
+                    <div class="col-12 col-sm-8 col-md-5 col-lg-5 px-5" id="sobre-img">
+                        <img src="files/images/layer.png" class="img-fluid float-left">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-7 col-lg-7">
+                        <p>O profissional formado em Produção Audiovisual trabalha na elaboração e produção de conteúdos publicitários, documentais, jornalísticos e artísticos, o que inclui roteiro, fotografia, iluminação, sonorização e finalização. Sua participação é fundamental na confecção de vídeos e filmes.
+                            Além disso, quem se forma em Produção Audiovisual pode atuar em cinematecas, museus de imagens e som, rádios e centros de documentação privados e estatais.</p>
+                    </div>
+                </div>
+                <div class="row align-items-center position-relative" style="top:-20px;" id="sobre-secao">
+                    <div class="col-12 col-sm-12 col-md-7 col-lg-7 position-relative">
+                        <p>É um campo de trabalho amplo e que está em expansão, pois lida com todos os tipos de linguagem: <b>cinema, televisão, internet e todas as produções que 
+                            conjugam imagem e som.</b></p>
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-5 col-lg-5 px-5 position-relative">
+                        <img src="files/images/pc.png" class="img-fluid float-right">
+                    </div>
+                </div>
+              </div>
+
+              <!-- EXIGÊNCIAS -->
+              <div class="container-fluid text-white position-relative" id="exigencias">
+                <h1 class="fw-semibold mb-0" id="sobre-title">Exigências</h1>
 
                 <div class="row align-items-center mb-0" id="sobre-secao">
                     <div class="col-12 col-sm-8 col-md-5 col-lg-5 px-5" id="sobre-img">
