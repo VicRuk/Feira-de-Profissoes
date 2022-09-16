@@ -20,6 +20,14 @@ body::-webkit-scrollbar-thumb{
     border-radius: 6px;
 }
 
+#title{
+    font-size: 60px;
+}
+p{
+    font-size: 0.8rem;
+}
+
+
 /* HEADER */
 .header{
     z-index:2;
@@ -78,13 +86,13 @@ body::-webkit-scrollbar-thumb{
         transform: translateY(-6px);
     }
 }
+
+
 /* NAVBAR */
 nav{
     height: 59px;
     background: rgba(19, 18, 18, 0.8);
     z-index: 2;
-    overflow: hidden;
-    
 }
 nav ul{
     justify-content: space-between !important;
@@ -120,17 +128,47 @@ nav ul li a:hover{
     padding: 70px 90px;
     background-color: #202124;
 }
-#sobre-title{
-    font-size: 60px;
+
+
+/* EXIGÊNCIAS */
+#exigencias{
+    padding: 70px 90px;
+    background-color: #2E3035;
 }
-#sobre-secao p{
-    font-size: 0.8rem;
+#exigencias-secao h2{
+    font-size: 25px;
+    font-weight: bold;
 }
-#sobre-img{
-    align-items: flex-start;
+.exigencias-quadrado{
+    background: #13AACE;
+    border-radius: 12px;
+    width: 50px;
+    height: 50px;
+    transition: 1s ease;
+}
+.exigencias-quadrado:hover{
+    background: #38CE13;
 }
 
 
+/* MERCADO */
+#mercado{
+    padding: 70px 90px;
+    background-color: #2E3341;
+}
+#mercado #title{
+    font-size: 50px;
+}
+
+#mercado img{
+    height: 280px;
+}
+
+.card{
+    width: 330px !important;
+    height: 455px !important;
+    border: solid 4px #01F5B7;
+}
 
 @media (max-width: 1400px) {
 
@@ -144,7 +182,7 @@ nav ul li a:hover{
 }
 
 @media(max-width: 776px){
-    #sobre-title{
+    #title{
         text-align: center;
     }
     #sobre-secao{
@@ -153,6 +191,14 @@ nav ul li a:hover{
     }
     #sobre{
         padding: 70px 40px;
+    }
+    #exigencias{
+        padding: 70px 20px;
+    }
+    .exigencias-quadrado{
+        border-radius: 10px;
+        width: 45px;
+        height: 45px;
     }
 }
 
