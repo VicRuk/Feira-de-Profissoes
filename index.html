@@ -18,6 +18,7 @@
 
     <!-- Ícones -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
     <title>Produção Audiovisual</title>
 </head>
 <body>
@@ -49,7 +50,7 @@
         <!-- NAV -->
         <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><b>Produção Audiovisual</b></a>
+                <a class="navbar-brand" href="#">Produção Audiovisual</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -166,64 +167,221 @@
             <!-- MERCADO -->
             <div class="container-fluid text-white position-relative" id="mercado">
                 <h1 class="fw-semibold mb-3" id="title">Mercado de Trabalho</h1>
-                
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner" data-bs-touch="false" data-bs-interval="false">
-                      <div class="carousel-item active align-items-center">
-                        <div class="card-group">
-                            <div class="row row-cols-1 row-cols-md-3 g-4">
-                                <div class="col">
-                                  <div class="card bg-transparent">
-                                    <img src="files/images/operador.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Card title</h5>
-                                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    </div>
-                                  </div>
+            
+                <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card bg-transparent overflow-hidden">
+                                <div class="img-wrapper">
+                                    <img src="files/images/operador.png" alt="...">
                                 </div>
-                                <div class="col">
-                                  <div class="card bg-transparent">
-                                    <img src="..." class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Card title</h5>
-                                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                
+                                <div class="card-body">
+                                    <div class="row text-center">
+                                        <h5 class="card-title text-center fw-bold fs-4">Operador</h5>
                                     </div>
-                                  </div>
-                                </div>
-                                <div class="col">
-                                  <div class="card bg-transparent">
-                                    <img src="..." class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Card title</h5>
-                                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                    
+                                    <p class="card-text">Este profissional trabalha com a captação e 
+                                    edição de som e escolhe os equipamentos adequados de acordo com o local de gravação.</p>
+                                    
+                                    <div class="square py-1 rounded text-center" style="background-color: #2b7274;">
+                                        <div class="mercado-salario">
+                                            <h5 class="fw-bold mb-0 fs-6">Sálario Médio</h5>
+                                            <p class="fw-bold fs-6">R$ 1.800,00 - 2.459,00</p>
+                                        </div>
                                     </div>
-                                  </div>
                                 </div>
                             </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
-                      </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card bg-transparent overflow-hidden">
+                                <div class="img-wrapper">
+                                    <img src="files/images/tv.png" alt="...">
+                                </div>
+                                
+                                <div class="card-body">
+                                    <div class="row text-center">
+                                        <h5 class="card-title text-center fw-bold fs-4">Produtor de TV</h5>
+                                    </div>
+                                    
+                                    <p class="card-text">Canais de televisão, sejam de rede aberta ou fechada, 
+                                        contratam profissionais formados em Produção Audiovisual para atuarem na 
+                                        produção de propagandas, reportagens, documentários, novelas, seriados, 
+                                        entre outros programas.</p>
+                                    
+                                    <div class="square py-1 rounded text-wrap text-center" style="background-color: #2b7274;">
+                                        <div class="mercado-salario">
+                                            <h5 class="fw-bold fs-6 mb-0">Sálario Médio</h5>
+                                            <p class="fw-bold fs-6">R$ 1.870,00 - 4.571,00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card bg-transparent overflow-hidden">
+                                <div class="img-wrapper">
+                                    <img src="files/images/produtor_exe.png" alt="..." id="mercado-ajuste">
+                                </div>
+                                
+                                <div class="card-body">
+                                    <div class="row text-center">
+                                        <h5 class="card-title text-center fw-bold fs-4">Produtor Executivo</h5>
+                                    </div>
+                                    
+                                    <p class="card-text">Profissional que atua na área de planejamento 
+                                        executivo de peças audiovisuais, cinematográficas, televisivas e 
+                                        digitais, com teor artístico, jornalístico, documental e 
+                                        publicitário.</p>
+                                    
+                                    <div class="square py-1 rounded text-wrap text-center" style="background-color: #2b7274;">
+                                        <div class="mercado-salario">
+                                            <h5 class="fw-bold fs-6 mb-0">Sálario Médio</h5>
+                                            <p class="fw-bold fs-6">R$ 3.583,67 - 4.688,00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card bg-transparent overflow-hidden">
+                                <div class="img-wrapper">
+                                    <img src="files/images/editor.png" alt="...">
+                                </div>
+                                
+                                <div class="card-body">
+                                    <div class="row text-center">
+                                        <h5 class="card-title text-center fw-bold fs-4">Editor</h5>
+                                    </div>
+                                    
+                                    <p class="card-text">Este profissional trabalha com a captação de 
+                                        imagens e organiza a montagem das cenas para finalizar o projeto.</p>
+                                    
+                                    <div class="square py-1 rounded text-wrap text-center" style="background-color: #2b7274;">
+                                        <div class="mercado-salario">
+                                            <h5 class="fw-bold fs-6 mb-0">Sálario Médio</h5>
+                                            <p class="fw-bold fs-6">R$ 2.304,00 - 5.934,00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card bg-transparent overflow-hidden">
+                                <div class="img-wrapper">
+                                    <img src="files/images/auxiliar_operacaosonora.jpg" alt="..." id="mercado-ajuste2">
+                                </div>
+                                
+                                <div class="card-body">
+                                    <div class="row text-center">
+                                        <h5 class="card-title text-center fw-bold fs-4">Auxiliar de Operação Sonora</h5>
+                                    </div>
+                                    
+                                    <p class="card-text">Profissional que atua na captação e edição de som. 
+                                        Cabe a ele escolher equipamentos adequados ao o local de gravação 
+                                        para a perfeita captação de som de uma filmagem.</p>
+                                    
+                                    <div class="square py-1 rounded text-wrap text-center" style="background-color: #2b7274;">
+                                        <div class="mercado-salario">
+                                            <h5 class="fw-bold fs-6 mb-0">Sálario Médio</h5>
+                                            <p class="fw-bold fs-6">R$ 1.158,00 - 1.677,00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card bg-transparent overflow-hidden">
+                                <div class="img-wrapper">
+                                    <img src="files/images/copywriting.jpeg" alt="...">
+                                </div>
+                                
+                                <div class="card-body">
+                                    <div class="row text-center">
+                                        <h5 class="card-title text-center fw-bold fs-4">Copywriter</h5>
+                                    </div>
+                                    
+                                    <p class="card-text" id="mercado-texto_largo">Roteirista que trabalha nas áreas de marketing e 
+                                        publicidade de produções audiovisuais. O copywriter é especializado 
+                                        em vendas. Ele entende de metalinguagem e domina tudo sobre a forma 
+                                        como a mente humana processa informações. Normalmente o copywriter é 
+                                        contratado para convencer o público a agir, seja comprando um produto
+                                         ou serviço.</p>
+                                    
+                                    <div class="square py-1 rounded text-wrap text-center" style="background-color: #2b7274;">
+                                        <div class="mercado-salario">
+                                            <h5 class="fw-bold fs-6 mb-0">Sálario Médio</h5>
+                                            <p class="fw-bold fs-6">R$ 5.000 - 30.000</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card bg-transparent overflow-hidden">
+                                <div class="img-wrapper">
+                                    <img src="files/images/script.png" alt="...">
+                                </div>
+                                
+                                <div class="card-body">
+                                    <div class="row text-center">
+                                        <h5 class="card-title text-center fw-bold fs-4">Supervisor de Script</h5>
+                                    </div>
+                                    
+                                    <p class="card-text" id="mercado-texto_largo">Profissional que tem vaga fixa em uma produtora. 
+                                        Ele trabalha no set e tem a responsabilidade de se certificar que 
+                                        os atores estão entregando as falas do jeito que o roteirista as 
+                                        escreveu ou do jeito que o diretor quer. Ele acompanha a gravação 
+                                        e cada tomada realizada. Essa informação depois é passada para o 
+                                        editor iniciar a montagem do filme.</p>
+                                    
+                                    <div class="square py-1 rounded text-wrap text-center" style="background-color: #2b7274;">
+                                        <div class="mercado-salario">
+                                            <h5 class="fw-bold fs-6 mb-0">Sálario Médio</h5>
+                                            <p class="fw-bold fs-6">R$ 3.210,00 - 5.980,00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card bg-transparent overflow-hidden">
+                                <div class="img-wrapper">
+                                    <img src="files/images/roteirista.jpg" alt="...">
+                                </div>
+                                
+                                <div class="card-body">
+                                    <div class="row text-center">
+                                        <h5 class="card-title text-center fw-bold fs-4">Roteirista</h5>
+                                    </div>
+                                    
+                                    <p class="card-text">Profissional que cria ou adapta histórias para a 
+                                        realização de uma produção audiovisual de qualquer tipo: filmes, 
+                                        séries, novelas, peças de teatro, documentários, videoclipes e 
+                                        personagens.</p>
+                                    
+                                    <div class="square py-1 rounded text-wrap text-center" style="background-color: #2b7274;">
+                                        <div class="mercado-salario">
+                                            <h5 class="fw-bold fs-6 mb-0">Sálario Médio</h5>
+                                            <p class="fw-bold fs-6">R$ 2.119,00 - 5.463,00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
                     </button>
-                  </div>
-                
+                </div>
             </div>
+
+            <!-- ENTREVISTA -->
         </section>
 
         <footer>
@@ -231,5 +389,7 @@
         </footer>
         
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="js/code.js"></script>
 </body>
 </html>
