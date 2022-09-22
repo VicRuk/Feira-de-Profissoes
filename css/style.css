@@ -30,7 +30,7 @@ p{
 
 /* HEADER */
 .header{
-    z-index:2;
+    z-index: 2;
 }
 .hero{
     position: relative;
@@ -96,6 +96,9 @@ nav{
 }
 .navbar-brand{
     font-family: 'Coolvetica';
+}
+.btn-close{
+    background-color: #FFFFFF;
 }
 nav ul{
     justify-content: space-between !important;
@@ -182,7 +185,7 @@ nav ul li a:hover{
     margin: 0 .5em;
     border: solid 4px #01F5B7;
     border-radius: 30px;
-    height: 550px;
+    height: auto;
 }
 #mercado .img-wrapper{
     max-width: 100%;
@@ -229,6 +232,12 @@ nav ul li a:hover{
     }
 }
 @media (max-width: 444px) {
+    #header-title:hover{
+        font-size: 2rem !important;
+    }
+    .card{
+        height: 520px !important;
+    }
 }
 
 @media(max-width: 776px){
@@ -262,6 +271,7 @@ nav ul li a:hover{
     .carousel-control-prev{
         left: 0%;
     }
+    
 }
 
 @font-face{
