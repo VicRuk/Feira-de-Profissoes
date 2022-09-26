@@ -87,7 +87,9 @@ p{
     }
 }
 
-
+section{
+    overflow-x: hidden;
+}
 /* NAVBAR */
 nav{
     height: 59px;
@@ -222,28 +224,469 @@ nav ul li a:hover{
 }
 
 
+/* ENTREVISTA */
+#entrevista{
+    height: 130vh;
+}
+.spacer{
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+.layer1{
+    background-image: url('../files/layer1.svg');
+}
+.layer2{
+    background-image: url('../files/layer2.svg');
+}
+#entrevista-video{
+    top: 11.5em;
+    z-index: 1;
+}
 
+.background {
+    position: absolute;
+    width: 100%;
+    height: 130vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background: #21245e;
+    overflow: hidden;
+    z-index: 0;
+}
+.background li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 17s linear infinite;
+}
+@keyframes animate {
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
+.background li:nth-child(0) {
+    left: 10%;
+    width: 118px;
+    height: 118px;
+    bottom: -118px;
+    animation-delay: 1s;
+}
+.background li:nth-child(1) {
+    left: 33%;
+    width: 148px;
+    height: 148px;
+    bottom: -148px;
+    animation-delay: 5s;
+}
+.background li:nth-child(2) {
+    left: 79%;
+    width: 188px;
+    height: 188px;
+    bottom: -188px;
+    animation-delay: 9s;
+}
+.background li:nth-child(3) {
+    left: 7%;
+    width: 199px;
+    height: 199px;
+    bottom: -199px;
+    animation-delay: 2s;
+}
+.background li:nth-child(4) {
+    left: 63%;
+    width: 142px;
+    height: 142px;
+    bottom: -142px;
+    animation-delay: 11s;
+}
+.background li:nth-child(5) {
+    left: 58%;
+    width: 190px;
+    height: 190px;
+    bottom: -190px;
+    animation-delay: 10s;
+}
+.background li:nth-child(6) {
+    left: 76%;
+    width: 134px;
+    height: 134px;
+    bottom: -134px;
+    animation-delay: 7s;
+}
+.background li:nth-child(7) {
+    left: 61%;
+    width: 195px;
+    height: 195px;
+    bottom: -195px;
+    animation-delay: 21s;
+}
+.background li:nth-child(8) {
+    left: 56%;
+    width: 155px;
+    height: 155px;
+    bottom: -155px;
+    animation-delay: 13s;
+}
+.background li:nth-child(9) {
+    left: 68%;
+    width: 196px;
+    height: 196px;
+    bottom: -196px;
+    animation-delay: 18s;
+}
+.background li:nth-child(10) {
+    left: 4%;
+    width: 158px;
+    height: 158px;
+    bottom: -158px;
+    animation-delay: 19s;
+}
+.background li:nth-child(11) {
+    left: 26%;
+    width: 197px;
+    height: 197px;
+    bottom: -197px;
+    animation-delay: 1s;
+}
+.background li:nth-child(12) {
+    left: 13%;
+    width: 145px;
+    height: 145px;
+    bottom: -145px;
+    animation-delay: 8s;
+}
+
+/* CURSO */
+#curso{
+    padding: 30px 90px;
+    background-color: #2E3035;
+}
+#curso #title{
+    padding-top: 80px;
+}
+
+/*GRADUAÇÃO*/
+#graduacao{
+    background: #1B492F;
+}
+.graduacao-header{
+    position: relative;
+    width: 100%;
+    height: 19em;
+    overflow: hidden;
+}
+.graduacao-header img{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 0;
+    opacity: .8;
+}
+.graduacao-header h3{
+    font-size: 4em;
+    text-shadow: 
+    0em 0em 0.2em black;
+}
+
+.graduacao{
+    width: 100%;
+    background: #1B492F;
+    padding: 60px 180px;
+}
+
+/*PÓS-GRADUAÇÃO*/
+#posgraduacao{
+    background: #743637;
+}
+.posgraduacao-header{
+    position: relative;
+    width: 100%;
+    height: 19em;
+    overflow: hidden;
+}
+.posgraduacao-header img{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 650px;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: .8;
+}
+.posgraduacao-header h3{
+    font-size: 4em;
+    text-shadow: 
+    0em 0em 0.2em black;
+}
+
+.posgraduacao{
+    width: 100%;
+    background: #743637;
+    padding: 60px 100px;
+}
+#cursos{
+    text-align: center;
+}
+#cursos img{
+    width: 110px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#cursos img:hover{
+    width: 115px;
+}
+#cursos p{
+    font-size: 0.7em;
+    color: #ffffff;
+    text-decoration: none;
+}
+#cursos a{
+    text-decoration: none;
+}
+
+
+/* UNIVERSIDADE */
+#universidade{
+    padding: 80px 90px;
+}
+.universidades-logos{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+.universidades-logos ul{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.universidades-logos ul li{
+    position: relative;
+    list-style: none;
+    width: 120px;
+    height: 120px;
+    margin: 0 70px;
+    transform: rotate(-30deg) skew(25deg);
+    background: #202124;
+}
+.universidades-logos ul li span{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    transition: 0.5s;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+}
+.universidades-logos img{
+    position: relative;
+    top: 0;
+    left: 0px;
+    align-items: center;
+    justify-content: center;
+    width: 100px !important;
+}
+.universidades-logos ul li:hover span:nth-child(5){
+    transform: translate(40px,-40px);
+    opacity: 1;
+}
+.universidades-logos ul li:hover span:nth-child(4){
+    transform: translate(30px,-30px);
+    opacity: .8;
+}
+.universidades-logos ul li:hover span:nth-child(3){
+    transform: translate(20px,-20px);
+    opacity: .6;
+}
+.universidades-logos ul li:hover span:nth-child(2){
+    transform: translate(10px,-10px);
+    opacity: .4;
+}
+.universidades-logos ul li:hover span:nth-child(1){
+    transform: translate(0px,-0px);
+    opacity: .2;
+}
+.universidades-logos ul li:nth-child(1) span{
+    background: linear-gradient(to bottom,#f37923, #f04f25);
+}
+.universidades-logos ul li:nth-child(2) span{
+    background: #111e3e;
+}
+.universidades-logos ul li:nth-child(3) span{
+    background: #da6d14;
+}
+.universidades-logos ul li:nth-child(4) span{
+    background: #2f3b89;
+}
+.universidades-logos ul li:nth-child(5) span{
+    background: #0526a9;
+}
+
+#footer{
+    background-color: #005da4;
+    width: 100%;
+    text-align: center;
+}
+#footer-nav{
+    display: flex;
+    justify-content: center;
+}
+#redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+#redes img{
+    width: 40px !important;
+    filter: brightness(0%) invert(100%);
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+#redes img:hover{
+    transform: translateY(-10px);
+}
+#redes li{
+    list-style: none;
+}
+
+#footer a{
+    font-size: 16px;
+    color: #fff;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+}
+#footer a:hover{
+    opacity: 1;
+}
+#footer .wave{
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url('../files/images/wave.png');
+    background-size: 1000px 100px;
+}
+footer .wave#wave1{
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWave 4s linear infinite;
+}
+footer .wave#wave2{
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animateWave2 4s linear infinite;
+}
+footer .wave#wave3{
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWave 3s linear infinite;
+}
+footer .wave#wave4{
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animateWave2 3s linear infinite;
+}
+@keyframes animateWave {
+    0%{
+        background-position-x: 1000px;
+    }
+    100%{
+        background-position: 0px;
+    }
+}
+@keyframes animateWave2 {
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position: 1000px;
+    }
+}
 @media (max-width: 1400px) {
 
+}
+@media (max-width: 1030px) {
+    #entrevista{
+        height: 120vh;
+    }
+    #entrevista-video{
+        top: 9em;
+    }
+    .background{
+        height: 120vh;
+    }
 }
 @media (max-width: 992px) {
     nav{
         height: auto;
     }
-}
-@media (max-width: 444px) {
-    #header-title:hover{
-        font-size: 2rem !important;
+    .spacer{
+        aspect-ratio: 770/500;
     }
-    .card{
-        height: 520px !important;
+    #entrevista{
+        height: 170vh;
+    }
+    #entrevista-video{
+        top: 17em;
+    }
+    .background{
+        height: 150vh;
+    }
+    .especializacao-cursos img{
+        width: 95px;
+        margin: 0 10px;
+    }
+    .especializacao-cursos img:hover{
+        width: 100px;
     }
 }
-
 @media(max-width: 776px){
     #title{
         text-align: center;
     }
+
     #sobre-secao{
         display: flex;
         justify-content: center;
@@ -251,6 +694,7 @@ nav ul li a:hover{
     #sobre{
         padding: 70px 40px;
     }
+
     #exigencias{
         padding: 70px 20px;
     }
@@ -259,6 +703,7 @@ nav ul li a:hover{
         width: 45px;
         height: 45px;
     }
+
     #mercado{
         padding: 70px 0px;
     }
@@ -271,7 +716,64 @@ nav ul li a:hover{
     .carousel-control-prev{
         left: 0%;
     }
+
+    #entrevista{
+        height: 130vh;
+    }
+    #entrevista-video{
+        top: 12em;
+    }
+    #entrevista iframe{
+        width: 500px;
+        height: 350px;
+    }
+    .background{
+        height: 120vh;
+    }
+    .spacer{
+        aspect-ratio: 770/500;
+    }
     
+    .graduacao{
+        padding: 60px 40px;
+    }
+    #graduacao-secao{
+       display: flex;
+       justify-content: center;
+    }
+    .posgraduacao{
+        padding: 60px 20px;
+    }
+}
+@media (max-width: 444px) {
+    #header-title:hover{
+        font-size: 2rem !important;
+    }
+    .card{
+        height: 520px !important;
+    }
+    .spacer{
+        aspect-ratio: 500/600;
+    }
+    #entrevista-video{
+        top: 13em;
+    }
+    #entrevista iframe{
+        width: 100%;
+        height: 300px;
+    }
+    .background{
+        height: 100vh;
+    }
+    #entrevista{
+        height: 89vh;
+    }
+    .especializacao-cursos img{
+        width: 80px;
+    }
+    .especializacao-cursos img:hover{
+        width: 85px;
+    }
 }
 
 @font-face{
