@@ -16,8 +16,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap" rel="stylesheet">
     
-     <!-- Ícones -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <title>Produção Audiovisual</title>
 </head>
 <body>
@@ -25,7 +27,7 @@
     <div class="container-fluid px-0">
         <!-- HEADER -->
         <header class="header position-relative start-0 top-0 end-0 px-0" style="background:black">
-            <div class="hero">
+            <div class="hero overflow-hidden position-relative">
                 <video playsinline autoplay muted loop loading="lazy" class="hero_video">
                     <source src="files/movies/MOVIE.mp4" type="video/mp4">
                 </video>
@@ -635,8 +637,8 @@
             <div class="container-fluid text-white position-relative mb-5" id="universidade">
                 <h1 class="fw-semibold mb-5" id="title">Universidades</h1>
             
-                <div class="universidades-logos position-relative">
-                    <ul>
+                <div class="universidades-logos position-relative mt-5">
+                    <ul class="position-relative m-0 p-0 d-flex">
                         <li>
                             <a href="https://www.anhanguera.com/curso/producao-audiovisual/" target="_blank">
                                 <span></span>
@@ -686,32 +688,33 @@
                 </div>
             </div>
         </section>
-        <footer class="py-3 position-relative" id="footer">
+
+        <footer class="py-3 px-0 position-relative" id="footer">
             <div class="footer-waves">
                 <div class="wave" id="wave1"></div>
                 <div class="wave" id="wave2"></div>
                 <div class="wave" id="wave3"></div>
                 <div class="wave" id="wave4"></div>
             </div>
-            <ul class="justify-content-center d-flex align-items-center" id="redes">
-                <li><a href="https://github.com/VicRuk" target="_blank"><img src="files/images/github.png"></a></li>
-                <li><a href="https://www.instagram.com/vicruk_edits/" target="_blank"><img src="files/images/insta.png"></a></li>
-                <li><a href="https://www.youtube.com/channel/UC8vWyKLaITcUV-2a4JeKlGg" target="_blank"><img src="files/images/youtube.png"></a></li>
-                <li><a href="https://www.linkedin.com/in/victor-tamezava/" target="_blank"><img src="files/images/linkedin.png"></a></li>
+            <ul class="text-center d-flex justify-content-center position-relative" id="redes">
+                <li><a href="https://github.com/VicRuk" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+                <li><a href="https://www.instagram.com/vicruk_edits/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href="https://www.youtube.com/channel/UC8vWyKLaITcUV-2a4JeKlGg" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                <li><a href="https://www.linkedin.com/in/victor-tamezava/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
             </ul>
-            <ul class="nav justify-content-center border-bottom pb-3 mb-3 text-center" id="footer-nav">
+            <ul class="nav d-flex justify-content-center border-bottom pb-3 mb-3 text-center" id="footer-nav">
               <li class="nav-item"><a href="#" class="nav-link px-2">Home</a></li>
               <li class="nav-item"><a href="#sobre" class="nav-link px-2">Sobre</a></li>
               <li class="nav-item"><a href="#exigencias" class="nav-link px-2">Exigências</a></li>
               <li class="nav-item"><a href="#mercado" class="nav-link px-2">Mercado de trabalho</a></li>
               <li class="nav-item"><a href="#entrevista" class="nav-link px-2">Entrevista</a></li>
-              <li class="nav-item"><a href="#cursos" class="nav-link px-2">Cursos</a></li>
+              <li class="nav-item"><a href="#curso" class="nav-link px-2">Cursos</a></li>
               <li class="nav-item"><a href="#universidades" class="nav-link px-2">Universidades</a></li>
             </ul>
             <p class="text-center text-white">© 2022 Produção Audiovisual, Victor Tamezava</p>
         </footer>
-        
     </div>
+    
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <script src="js/code.js"></script>
 </body>
