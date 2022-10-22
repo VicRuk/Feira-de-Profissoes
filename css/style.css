@@ -24,7 +24,7 @@ body::-webkit-scrollbar-thumb{
     font-size: 60px;
 }
 p{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 
@@ -66,7 +66,7 @@ p{
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
 }
 .hero_scroll_btn:hover{
     color: #FFFFFF;
@@ -233,158 +233,9 @@ nav ul li a:hover{
 }
 
 
-/* ENTREVISTA */
-#entrevista{
-    height: 130vh;
-}
-.spacer{
-    aspect-ratio: 960/300;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    z-index: 1;
-}
-.layer1{
-    background-image: url('../files/layer1.svg');
-}
-.layer2{
-    background-image: url('../files/layer2.svg');
-}
-#entrevista-video{
-    top: 11.5em;
-    z-index: 1;
-}
-
-.background {
-    position: absolute;
-    width: 100%;
-    height: 130vh;
-    top: 0;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    background: #21245e;
-    overflow: hidden;
-    z-index: 0;
-}
-.background li {
-    position: absolute;
-    display: block;
-    list-style: none;
-    width: 20px;
-    height: 20px;
-    background: rgba(255, 255, 255, 0.2);
-    animation: animate 17s linear infinite;
-}
-@keyframes animate {
-    0%{
-        transform: translateY(0) rotate(0deg);
-        opacity: 1;
-        border-radius: 0;
-    }
-    100%{
-        transform: translateY(-1000px) rotate(720deg);
-        opacity: 0;
-        border-radius: 50%;
-    }
-}
-
-.background li:nth-child(0) {
-    left: 10%;
-    width: 118px;
-    height: 118px;
-    bottom: -118px;
-    animation-delay: 1s;
-}
-.background li:nth-child(1) {
-    left: 33%;
-    width: 148px;
-    height: 148px;
-    bottom: -148px;
-    animation-delay: 5s;
-}
-.background li:nth-child(2) {
-    left: 79%;
-    width: 188px;
-    height: 188px;
-    bottom: -188px;
-    animation-delay: 9s;
-}
-.background li:nth-child(3) {
-    left: 7%;
-    width: 199px;
-    height: 199px;
-    bottom: -199px;
-    animation-delay: 2s;
-}
-.background li:nth-child(4) {
-    left: 63%;
-    width: 142px;
-    height: 142px;
-    bottom: -142px;
-    animation-delay: 11s;
-}
-.background li:nth-child(5) {
-    left: 58%;
-    width: 190px;
-    height: 190px;
-    bottom: -190px;
-    animation-delay: 10s;
-}
-.background li:nth-child(6) {
-    left: 76%;
-    width: 134px;
-    height: 134px;
-    bottom: -134px;
-    animation-delay: 7s;
-}
-.background li:nth-child(7) {
-    left: 61%;
-    width: 195px;
-    height: 195px;
-    bottom: -195px;
-    animation-delay: 21s;
-}
-.background li:nth-child(8) {
-    left: 56%;
-    width: 155px;
-    height: 155px;
-    bottom: -155px;
-    animation-delay: 13s;
-}
-.background li:nth-child(9) {
-    left: 68%;
-    width: 196px;
-    height: 196px;
-    bottom: -196px;
-    animation-delay: 18s;
-}
-.background li:nth-child(10) {
-    left: 4%;
-    width: 158px;
-    height: 158px;
-    bottom: -158px;
-    animation-delay: 19s;
-}
-.background li:nth-child(11) {
-    left: 26%;
-    width: 197px;
-    height: 197px;
-    bottom: -197px;
-    animation-delay: 1s;
-}
-.background li:nth-child(12) {
-    left: 13%;
-    width: 145px;
-    height: 145px;
-    bottom: -145px;
-    animation-delay: 8s;
-}
-
 /* CURSO */
 #curso{
-    padding: 30px 90px;
+    padding: 0px 90px;
     background-color: #2E3035;
 }
 #curso #title{
@@ -668,18 +519,171 @@ footer .wave#wave4{
 }
 
 
+/* ENTREVISTA */
+#entrevista{
+    height: 350vh;
+    padding: 0px 100px;
+    overflow-y: hidden;
+}
+.spacer{
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+.layer1{
+    background-image: url('../files/layer3.svg');
+}
+#entrevista-video{
+    top: 13em;
+    z-index: 1;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background: #21245e;
+    overflow: hidden;
+    z-index: 0;
+}
+.background li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 17s linear infinite;
+}
+@keyframes animate {
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+    100%{
+        transform: translateY(-2000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
+.background li:nth-child(0) {
+    left: 10%;
+    width: 118px;
+    height: 118px;
+    bottom: -118px;
+    animation-delay: 1s;
+}
+.background li:nth-child(1) {
+    left: 33%;
+    width: 148px;
+    height: 148px;
+    bottom: -148px;
+    animation-delay: 5s;
+}
+.background li:nth-child(2) {
+    left: 79%;
+    width: 188px;
+    height: 188px;
+    bottom: -188px;
+    animation-delay: 9s;
+}
+.background li:nth-child(3) {
+    left: 7%;
+    width: 199px;
+    height: 199px;
+    bottom: -199px;
+    animation-delay: 2s;
+}
+.background li:nth-child(4) {
+    left: 63%;
+    width: 142px;
+    height: 142px;
+    bottom: -142px;
+    animation-delay: 11s;
+}
+.background li:nth-child(5) {
+    left: 58%;
+    width: 190px;
+    height: 190px;
+    bottom: -190px;
+    animation-delay: 10s;
+}
+.background li:nth-child(6) {
+    left: 76%;
+    width: 134px;
+    height: 134px;
+    bottom: -134px;
+    animation-delay: 7s;
+}
+.background li:nth-child(7) {
+    left: 61%;
+    width: 195px;
+    height: 195px;
+    bottom: -195px;
+    animation-delay: 21s;
+}
+.background li:nth-child(8) {
+    left: 56%;
+    width: 155px;
+    height: 155px;
+    bottom: -155px;
+    animation-delay: 13s;
+}
+.background li:nth-child(9) {
+    left: 68%;
+    width: 196px;
+    height: 196px;
+    bottom: -196px;
+    animation-delay: 18s;
+}
+.background li:nth-child(10) {
+    left: 4%;
+    width: 158px;
+    height: 158px;
+    bottom: -158px;
+    animation-delay: 19s;
+}
+.background li:nth-child(11) {
+    left: 26%;
+    width: 197px;
+    height: 197px;
+    bottom: -197px;
+    animation-delay: 1s;
+}
+.background li:nth-child(12) {
+    left: 13%;
+    width: 145px;
+    height: 145px;
+    bottom: -145px;
+    animation-delay: 8s;
+}
+
+#entrevista #portal{
+    top: 18em;
+    z-index: 2;
+}
+
 @media (max-width: 1400px) {
 
 }
 @media (max-width: 1030px) {
     #entrevista{
-        height: 120vh;
+        height: 300vh;
+    }
+    #entrevista #portal{
+        top: 12em;
     }
     #entrevista-video{
         top: 9em;
-    }
-    .background{
-        height: 120vh;
     }
     #universidade ul{
         flex-direction: column;
@@ -693,13 +697,13 @@ footer .wave#wave4{
         aspect-ratio: 770/500;
     }
     #entrevista{
-        height: 170vh;
+        height: 350vh;
+    }
+    #entrevista #portal{
+        top: 22em;
     }
     #entrevista-video{
-        top: 17em;
-    }
-    .background{
-        height: 150vh;
+        top: 20em;
     }
 }
 @media(max-width: 776px){
@@ -746,14 +750,11 @@ footer .wave#wave4{
         height: 130vh;
     }
     #entrevista-video{
-        top: 12em;
+        top: 15em;
     }
     #entrevista iframe{
         width: 500px;
         height: 350px;
-    }
-    .background{
-        height: 120vh;
     }
     .spacer{
         aspect-ratio: 770/500;
@@ -780,32 +781,36 @@ footer .wave#wave4{
     .posgraduacao{
         padding: 60px 20px;
     }
+    #entrevista{
+        height: 490vh;
+        padding: 0px 80px;
+    }
+    #entrevista #portal{
+        top: 22em;
+    }
 }
 @media (max-width: 444px) {
     #header-title:hover{
         font-size: 2rem !important;
     }
-    .card{
+    #mercado .card{
         height: 520px !important;
     }
     .spacer{
         aspect-ratio: 500/600;
     }
     #entrevista-video{
-        top: 13em;
+        top: 15em;
     }
     #entrevista iframe{
         width: 90%;
         height: 300px;
     }
-    .background{
-        height: 100vh;
-    }
     #entrevista{
-        height: 89vh;
+        height: 390vh;
+        padding: 0px 10px;
     }
 }
-
 @font-face{
     font-family: 'Coolvetica';
     src: url(../font/Coolvetica\ Rg.ttf);
