@@ -47,6 +47,8 @@ if(window.matchMedia("(min-width: 570px)").matches) {
         }
     });
   }  
-  else {
+else {
     $(multipleCardCarousel).addClass("slide");
-  }
+}
+
+

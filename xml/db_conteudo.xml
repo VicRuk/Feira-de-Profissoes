@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conteudo>
+    <postagem codigo="1">
+        <titulo>Titulo de notícia</titulo>
+        <corpo>Primeira Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur optio doloremque doloribus, unde repudiandae necessitatibus, 
+        sapiente quidem natus soluta eos aliquam totam. Placeat voluptatum ea facilis rem excepturi illum voluptate.</corpo>
+        <imagem_1>editor.png</imagem_1>
+    </postagem>
+    <postagem codigo="2">
+        <titulo>Titulo de notícia</titulo>
+        <corpo>Primeira Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur optio doloremque doloribus, unde repudiandae necessitatibus, 
+        sapiente quidem natus soluta eos aliquam totam. Placeat voluptatum ea facilis rem excepturi illum voluptate.</corpo>
+        <imagem_1>editor.png</imagem_1>
+    </postagem>
+    <postagem codigo="3">
+        <titulo>Titulo de notícia</titulo>
+        <corpo>Primeira Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur optio doloremque doloribus, unde repudiandae necessitatibus, 
+        sapiente quidem natus soluta eos aliquam totam. Placeat voluptatum ea facilis rem excepturi illum voluptate.</corpo>
+        <imagem_1>editor.png</imagem_1>
+    </postagem>
+    
+</conteudo>
