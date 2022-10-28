@@ -683,6 +683,14 @@ footer .wave#wave4{
     z-index: 2;
 }
 
+#btn-mais{
+    width: 100%;
+}
+
+
+#noticias{
+    padding: 70px 90px;
+}
 @media (max-width: 1400px) {
 
 }
@@ -722,7 +730,7 @@ footer .wave#wave4{
         text-align: center;
     }
 
-    #sobre{
+    #sobre,#noticias{
         padding: 70px 40px;
     }
     #sobre-secao{
@@ -818,7 +826,7 @@ footer .wave#wave4{
         height: 300px;
     }
     #entrevista{
-        height: 390vh;
+        height: 420vh;
         padding: 0px 10px;
     }
 }

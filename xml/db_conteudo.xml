@@ -1,22 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <conteudo>
     <postagem codigo="1">
-        <titulo>Titulo de notícia</titulo>
-        <corpo>Primeira Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur optio doloremque doloribus, unde repudiandae necessitatibus, 
-        sapiente quidem natus soluta eos aliquam totam. Placeat voluptatum ea facilis rem excepturi illum voluptate.</corpo>
-        <imagem_1>editor.png</imagem_1>
+        <titulo>Curta Santos abre inscrições para oficinas audiovisuais</titulo>
+        <corpo>
+            Estão abertas as inscrições para as oficinas do ‘20º Curta Santos – Festival de Cinema de 
+            Santos’. As atividades gratuitas serão realizadas nos dias 4, 5 e 6 de novembro, no Sesc 
+            Santos (Rua Conselheiro Ribas, 136, Aparecida). As inscrições podem ser feitas pelo site 
+            https://inscricoes.sescsp.org.br e estão sujeitas ao preenchimento das vagas (30 para cada oficina). 
+        </corpo>
+        <corpo2>
+            Os módulos são: ‘Pílulas de Sangue - Um Panorama das Mulheres Que Produzem Curtas Metragens De 
+            Horror No Brasil’, com coordenação de Beatriz Saldanha, ‘O Som dos Filmes’, com Fernanda Nascimento, 
+            e ‘Fake News: Muito Mais Antigo Que Se Pensa’, com Celso Sabadin.
+        </corpo2>
+        <corpo3>
+            Com abertura na próxima quarta-feira (2), às 19h, no Teatro do Sesc/Santos, a 20ª edição do 
+            Curta Santos tem início com a exibição de estreia do longa ‘Marte Um’, de Gabriel Martins, 
+            filme aclamado por crítica e público e que foi escolhido pela Academia Brasileira de Cinema e 
+            Artes Visuais como representante nacional à vaga de Melhor Filme Internacional do Oscar 2023. 
+            Os ingressos podem ser retirados uma hora antes, na bilheteria do local.
+        </corpo3>
+        <corpo4>
+            O festival será realizado de 2 a 6 de novembro, ocupando salas de exibição e espaços públicos 
+            da Cidade, além de conteúdo simultâneo no canal do festival no YouTube 
+            (www.youtube.com/festivalcurtasantos). Mostras oficiais e especiais, oficinas e bate-papos 
+            também formam a programação. Mais informações em www.curtasantos.com.br, https://www.santos.sp.gov.br/?q=noticia/curta-santos-abre-inscricoes-para-oficinas-audiovisuais-0.
+        </corpo4>
+        <corpo5>
+        </corpo5>
+        <corpo6>
+        
+        </corpo6>
+
+        <imagem_1>preview1.png</imagem_1>
+        <imagem_2>noticia1.png</imagem_2>
     </postagem>
+
     <postagem codigo="2">
-        <titulo>Titulo de notícia</titulo>
-        <corpo>Primeira Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur optio doloremque doloribus, unde repudiandae necessitatibus, 
-        sapiente quidem natus soluta eos aliquam totam. Placeat voluptatum ea facilis rem excepturi illum voluptate.</corpo>
-        <imagem_1>editor.png</imagem_1>
+        <titulo>Nintendo Pictures, subsidiária focada em produção audiovisual, é oficialmente fundada</titulo>
+        <corpo>
+            A Nintendo inaugurou oficialmente, nesta segunda-feira (03), a subsidiária Nintendo Pictures, 
+            originada a partir da aquisição do estúdio japonês Dynamo Pictures, anunciada em julho deste 
+            ano. 
+        </corpo>
+        <corpo2>
+            Esse braço da Big N será focado em produção audiovisual com personagens e franquias da empresa. 
+            Além disso, a subsidiária fornecerá serviços de motion capture, capturando movimentos reais que 
+            poderão ser integrados à animação de personagens.
+        </corpo2>
+        <corpo3>
+            De acordo com o site oficial do estúdio, seu objetivo "é que os consumidores de todo o mundo 
+            aprendam sobre os personagens da Nintendo por meio de vídeos exclusivos que permanecerão em 
+            suas memórias para sempre".
+        </corpo3>
+        <corpo4>
+            A página também afirma que a produtora trabalhará com clientes, o que indica que seus serviços 
+            podem ser usados por desenvolvedoras internas e parceiros externos da Nintendo. Não houve 
+            esclarecimento se a subsidiária trabalhará em cutscenes em jogos da Big N ou se ela ajudará a 
+            gigante japonesa em futuros projetos para TV e cinemas.
+        </corpo4>
+        <corpo5>
+            No momento, a Nintendo Pictures possui 105 funcionários e está com inscrições abertas para 
+            processos seletivos que terão início em novembro. Para se inscrever, basta registrar seu 
+            e-mail no site do estúdio. Para mais informações, acesse: https://www.nintendoblast.com.br/2022/10/nintendo-pictures-subsidiaria-focada-em-producao-audiovisual-e-oficialmente-fundada.html
+        </corpo5>
+        <corpo6>
+        
+        </corpo6>
+
+        <imagem_1>preview2.png</imagem_1>
+        <imagem_2>noticia2.png</imagem_2>
     </postagem>
     <postagem codigo="3">
-        <titulo>Titulo de notícia</titulo>
-        <corpo>Primeira Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur optio doloremque doloribus, unde repudiandae necessitatibus, 
-        sapiente quidem natus soluta eos aliquam totam. Placeat voluptatum ea facilis rem excepturi illum voluptate.</corpo>
-        <imagem_1>editor.png</imagem_1>
+        <titulo>Brasileiros ocupam mercado audiovisual nos EUA</titulo>
+        <corpo>
+            Morar no exterior e construir uma carreira de sucesso fora do país se tornou o grande sonho 
+            de muitos brasileiros. De acordo com uma pesquisa do Datafolha realizada recentemente, 76% dos 
+            jovens dizem ter muita ou alguma vontade de deixar definitivamente o Brasil. Um dos lugares 
+            mais procurados para essa mudança de vida é os Estados Unidos, devido às grandes oportunidades 
+            de trabalho, ao maior poder de compra, qualidade de vida, entre outros fatores.
+        </corpo>
+        <corpo2>
+            Atualmente, os EUA já abrigam muitos brasileiros residentes que têm dedicado seu tempo com a 
+            Produção de Conteúdo, especialmente audiovisual, por ser um mercado em ascensão. De forma 
+            geral, o país situado entre o Canadá e o México, na América do Norte, é o principal destino 
+            dos brasileiros que decidem morar fora, representando 42% dos casos. Em 2020, havia 1,8 milhão 
+            de brasileiros vivendo no país, segundo os dados mais recentes do Ministério das Relações 
+            Exteriores.
+        </corpo2>
+        <corpo3>
+            No YouTube, é possível encontrar diversos materiais produzidos por brasileiros que moram nos 
+            Estados Unidos, abordando os mais variados temas, mas todos com o objetivo principal de 
+            mostrar como é a vida no país. Canais esses que, por apresentarem tal estilo de vida, podem 
+            auxiliar os imigrantes ou residentes “de primeira viagem” a melhor se estabelecerem na “Terra 
+            do Tio Sam”.
+        </corpo3>
+        <corpo4>
+            As plataformas de streaming, além disso, têm sido cada vez mais acessadas por cidadãos 
+            norte-americanos. De acordo com dados da consultoria Nielsen, 34,8% utilizaram tais 
+            ferramentas em julho de 2022, em um total de 191 bilhões de minutos consumidos - um aumento 
+            de 22,6% maior se comparado com julho de 2021.
+        </corpo4>
+        <corpo5>
+            É interessante frisar, inclusive, que, desde junho de 2021, de acordo com um informe oficial 
+            do Google, os Estados Unidos começaram a tributar os vídeos on-line de brasileiros publicados 
+            na plataforma devido à grande audiência entre os espectadores norte-americanos.
+        </corpo5>
+        <corpo6>
+            Segundo o comunicado, o Google tem descontado parte dos ganhos de youtubers fora dos Estados 
+            Unidos, em uma medida que foi adotada para cumprir uma determinação do Internal Revenue 
+            Service (IRS), órgão equivalente à Receita Federal brasileira - dessa maneira, os canais do 
+            YouTube têm de pagar até 30% da receita que vier de usuários nos EUA. Para mais informações: https://oglobo.globo.com/patrocinado/dino/noticia/2022/10/brasileiros-ocupam-mercado-audiovisual-nos-eua.ghtml
+        </corpo6>
+
+        <imagem_1>preview3.png</imagem_1>
+        <imagem_2>noticia3.png</imagem_2>
+    </postagem>
+    <postagem codigo="4">
+        <titulo>Adobe apresenta o Project Blink, um editor de vídeo de IA baseado em testes</titulo>
+        <corpo>
+            Na conferência Max para fotógrafos, editores de vídeo, ilustradores e outras pessoas criativas, 
+            a Adobe apresentou uma ferramenta incomum do Project Blink baseada em inteligência artificial. 
+            Depois de enviar um vídeo para a nuvem, você pode pesquisar caracteres, objetos e palavras no 
+            vídeo, seguido da capacidade de excluir ou editar conteúdo.
+        </corpo>
+        <corpo2>
+            De fato, após o processamento, o sistema de IA transforma o vídeo em um script com elementos 
+            de texto que podem ser pesquisados. O teste de tecnologia já está disponível em um recurso 
+            especial da Adobe.
+        </corpo2>
+        <corpo3>
+            Os recursos do sistema permitem identificar o locutor no fluxo de mídia e “enviar para o lixo” 
+            fragmentos de vídeo com palavras parasitas ou eliminar momentos com silêncio prolongado em modo 
+            semiautomático – isso é indispensável para os blogueiros. Basta remover um fragmento de fala do 
+            texto para que a parte correspondente do vídeo desapareça do vídeo.
+        </corpo3>
+        <corpo4>
+            Você pode pesquisar por “feliz” ou “risos” para encontrar pessoas que demonstrem emoções 
+            semelhantes. Por fim, você pode simplesmente remover completamente uma pessoa do vídeo sem 
+            recorrer à pesquisa manual.
+        </corpo4>
+        <corpo5>
+            O exemplo do Blink mostra claramente o quão ativamente a Adobe está introduzindo elementos de 
+            IA em seus produtos. Também introduziu recentemente ferramentas que permitem criar objetos 3D 
+            a partir de uma série de fotografias, trabalhar com objetos como argila esculpida no metaverso 
+            e, na nova versão do Lightroom, você pode selecionar pessoas ou até partes delas com um clique.
+        </corpo5>
+        <corpo6>
+            Para mais informações: https://avalanchenoticias.com.br/mercado-de-tecnologia-e-ti-noticia/adobe-apresenta-o-project-blink-um-editor-de-video-de-ia-baseado-em-testes/
+        </corpo6>
+
+        <imagem_1>preview4.png</imagem_1>
+        <imagem_2>noticia4.png</imagem_2>
     </postagem>
     
 </conteudo>
