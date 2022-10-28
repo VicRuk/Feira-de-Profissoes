@@ -730,7 +730,7 @@ footer .wave#wave4{
         text-align: center;
     }
 
-    #sobre,#noticias{
+    #sobre{
         padding: 70px 40px;
     }
     #sobre-secao{
@@ -806,6 +806,11 @@ footer .wave#wave4{
     }
     #entrevista #portal{
         top: 22em;
+    }
+
+
+    #noticias{
+        padding: 70px 20px;
     }
 }
 @media (max-width: 444px) {
