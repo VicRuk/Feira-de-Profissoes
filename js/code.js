@@ -17,7 +17,6 @@ function reveal(){
     }
 }
 
-
 var multipleCardCarousel = document.querySelector(
     "#carouselExampleControls"
 );

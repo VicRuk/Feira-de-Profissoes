@@ -172,7 +172,7 @@ nav ul li a:hover{
 }
 
 
-/* MERCADO */
+    /* MERCADO */
 #mercado{
     padding: 70px 90px;
     background-color: #2E3341;
@@ -244,7 +244,7 @@ nav ul li a:hover{
 }
 
 
-/* CURSO */
+    /* CURSO */
 #curso{
     padding: 0px 90px;
     background-color: #2E3035;
@@ -254,7 +254,7 @@ nav ul li a:hover{
 }
 
 
-/* UNIVERSIDADE */
+    /* UNIVERSIDADE */
 #universidade{
     padding: 80px 90px;
 }
@@ -338,7 +338,7 @@ nav ul li a:hover{
     background: #0526a9;
 }
 
-/* GRADE */
+    /* GRADE */
 #grade{
     background-color: #280f73;
 }
@@ -359,7 +359,7 @@ nav ul li a:hover{
 }
 
 
-/*GRADUAÇÃO*/
+    /*GRADUAÇÃO*/
 #graduacao{
     background: #1B492F;
 }
@@ -393,7 +393,7 @@ nav ul li a:hover{
     padding: 60px 180px;
 }
 
-/*PÓS-GRADUAÇÃO*/
+    /*PÓS-GRADUAÇÃO*/
 #posgraduacao{
     background: #743637;
 }
